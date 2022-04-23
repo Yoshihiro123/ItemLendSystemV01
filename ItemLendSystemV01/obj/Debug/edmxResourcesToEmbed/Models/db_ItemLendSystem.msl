@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ItemLendSystemModelStoreContainer" CdmEntityContainer="ItemLendSystemEntities1">
+    <EntitySetMapping Name="t_lend_items">
+      <EntityTypeMapping TypeName="ItemLendSystemModel.t_lend_items">
+        <MappingFragment StoreEntitySet="t_lend_items">
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+          <ScalarProperty Name="BorowerName" ColumnName="BorowerName" />
+          <ScalarProperty Name="CheckoutDate" ColumnName="CheckoutDate" />
+          <ScalarProperty Name="ReturnDateExpected" ColumnName="ReturnDateExpected" />
+          <ScalarProperty Name="ReturnDateActual" ColumnName="ReturnDateActual" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
